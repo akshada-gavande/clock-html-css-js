@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato:ital,wght@1,300&family=Roboto:wght@300&family=Sofia&display=swap');
+
+:root{
+    --roboto:"Roboto",sans-serif;
+    --gugi:"Gugi", cursive;
+    --sofia:"Sofia", cursive;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--gugi);
+
+}
+.msgfont{
+    font-family: var(--sofia);;
+
+}
+
+.header{
+    height: 20vh; 
+}
+
+.navbar-style{
+    box-shadow: 0 10px 10px orange;
+    
+}
+.logo{
+    height: 90px;
+    padding: 0;
+}
+.icon-bar{
+    background: darkorange;
+}
+
+li a{
+    color: black;
+}
+
+.big-text{
+    color: darkorange;
+}
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+a.btn-first{
+    background-color: darkorange;
+    color: white;
+    
+}
+a.btn-second{
+    background: transparent;
+    border: 1px solid darkorange;
+    color: #333;
+}
+a.btn:hover{
+    background: darkorange;
+    border: none;
+    color: white;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.3s;
+}
+
